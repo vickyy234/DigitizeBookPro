@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    background: radial-gradient(circle,#e6ecec,#cbd5dae1,#cedbe4 );
+    text-align: center;
+    align-items: center;
+    width: auto;
+    margin: 0px;
+}
+#title span{
+    background:linear-gradient(60deg,#68a5ddb9,#41c028d0,#beda22);
+    background-clip: text;
+    color: transparent;
+}
+#top p{
+    border-bottom: 2px solid#3498db;
+    padding-bottom:10px;
+}
+#engineering{
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#engineering_departments{
+    padding-bottom: 150px;
+}
+#column{
+    display: inline-flex;
+}
+#arts{
+    padding-bottom: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#photo{
+    padding: 30px;
+}
+#photo img{
+    border-radius: 20px;
+    width: 100%;
+}
+#bottom{
+    background-color: #8cc7ee;
+}
+#bottom a{
+    text-decoration: none;
+}
+#photo img:hover{
+    transition: 1.8s;
+    opacity: 0.5;
+    box-shadow: 0px 0px  80px black;
+}
+#toggle_img{
+    width: 40px;
+}
+#toggle_mode_anchor{
+    cursor: pointer;
+    float: right;   
+}
+#engineering img{
+    border-radius: 8px;
+}
+#arts img{
+    border-radius: 8px;
+}
+#feedback{
+    cursor: pointer;
+}
+#feedback h3:hover{ 
+    background-color: #beda22;
+}
+#black_background{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    position:fixed;
+    opacity: 0.8;
+    display:none;
+    z-index: 1;
+}
+#feedback_popup{
+    background-color: white;
+    color: black;
+    width: 25%;
+    left: 37.5%;
+    bottom: 23%;
+    position:sticky;
+    z-index: 2;
+    display:none;
+    padding: 10px;
+    border-radius: 30px;
+}
+#feedback_popup{
+    font-size: 20px;
+    font-weight: bold;
+}
+#popup_close{
+    cursor: pointer;
+}

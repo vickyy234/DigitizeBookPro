@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Educational Website</title>
+        <link rel="icon" href="img/icon.jpg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="top">
+            <a id="toggle_mode_anchor" onclick="toggle_black()"><img id="toggle_img" src="img/moon.png">
+            <figcaption id="toggle_mode_caption">Dark-Mode</figcaption>
+            </a>
+            <h1 id="title"><span>Digitize Book Pro</span></h1>
+            <p>Explore and download professional books for your learning journey</p>
+        </div>  
+        <div id="engineering">
+            <img src="img/engineering logo.jpg" alt="Engineering logo" width="10%">  
+            <figcaption>ENGINEERING</figcaption>
+        </div>
+        <div id="engineering_departments">
+            <div id="column">
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/ai.jpg"></a>    
+                <figcaption>Artifical Itelligence & Data Science(AIDS)</figcaption>
+                </div>
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/aiml.jpg"></a>
+                <figcaption>Computer science and Engineering(AIML)</figcaption>
+                </div>
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/bm.jpg"></a>
+                <figcaption>Bio Medical</figcaption>
+                </div>
+            </div>
+            <div id="column">
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/ce.jpg"></a>
+                <figcaption>Civil Engineering</figcaption>
+                </div>
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/ch.jpg"></a>
+                <figcaption>Chemical Engineering</figcaption>
+                </div>
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/cs.jpg"></a>
+                <figcaption>Computer Science and Engineering</figcaption>
+                </div>
+            </div>
+            <div id="column">
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/csbs.jpg"></a>
+                <figcaption>Computer Science and Bussiness System(CSBS)</figcaption>
+                </div>
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/ec.jpg"></a>
+                <figcaption>Electronics and Communication Engineering</figcaption>
+                </div>
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/ee.jpg"></a>
+                <figcaption>Electrical and Electronics Engineering</figcaption>
+                </div>
+            </div>
+            <div id="column">
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/it.jpg"></a>
+                <figcaption>Information Technology</figcaption>
+                </div>
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/me.jpg"></a>
+                <figcaption>Mechanical Enginnering</figcaption>
+                </div>
+                <div id="photo">
+                <a href="Navigation page/navigation.html" target="_blank"><img src="img/mi.jpg"></a>
+                <figcaption>Mechatronics Engineering</figcaption>
+                </div>
+            </div>
+        </div>    
+        <div id="arts">
+            <img src="img/arts logo.jpg" alt="Arts and Science logo" width="10%">
+            <figcaption>ARTS AND SCIENCE</figcaption>
+            <marquee direction="right"><h2>Coming soon....</h2></marquee>  
+        </div>
+        <div id="bottom">
+            <h3>Contact Us</h3>
+            <a rel="link" href="https://maps.app.goo.gl/GRpDAGNm5w8PiXPR6" target="_blank"><h4>📍KPRIET,Arasur,coimbatore-641665</h4></a>
+            <a rel="link" href="mailto:digitizebookpro@gmail.com" target="_blank"><h4>✉️digitizebookpro@gmail.com</h4></a>
+            <a  id="feedback" onclick="popup_open()"><span><h3>Feedback</h3></span></a>
+            <h5>|Developed in KPRIET|</h5>
+        </div>
+        <div id="black_background"></div>
+        <div id="feedback_popup">
+            <form method="post" action="https://formspree.io/f/xayroqqr">
+                <label>Name</label><br>
+                <input type="text" name="Name" placeholder="Full Name" required><br><br>
+                <label>Email</label><br>
+                <input type="email" name="Email" placeholder="Email adress" pattern=".+@gmail\.com" required><br><br>
+                <label>Feedback</label><br>
+                <textarea placeholder="Your message" name="Feedback Message" rows="4" required></textarea><br><br>
+                <input type="submit" >
+            </form>
+            <a id="popup_close" onclick="popup_close()"><h3>Close</h3></a>        
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
